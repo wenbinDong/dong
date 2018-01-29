@@ -1,5 +1,0 @@
-rmse00 = nihecha( p0,r0,cap0 )
-rmse10 = nihecha( p1,r1,cap1 )
-rmse20 = nihecha( p2,r2,cap2 )
-rmse30 = nihecha( p3,r3,cap3 )
-rmse40 = nihecha( p4,r4,cap4 )
