@@ -604,11 +604,6 @@ void BAT1_ADC_U_Two(int U_dis)
 	
 //	dU_Current_0 = ADC_test_return();
 	
-//	/*dac-8.5A放电*/
-//	DAC_Output(REF_DAC);
-//	
-//	/*延时150us后，电池放电5A的电压稳定*/
-//	Delay_us(120-2);
 	
 	/*此时开启电容1采样开关，采集电池电压*/
 	BAT1_SW1_ON;
@@ -617,19 +612,22 @@ void BAT1_ADC_U_Two(int U_dis)
 	
 	/*电池放电引入开关开启*/
 	BAT1_SG_ON;
-	/*dac-10A放电*/
+	/*dac-   放电*/
 	DAC_Output(U_dis);
 	
+	/*延时100us后，电池放电电压稳定*/
+	Delay_us(100-2);
+	
 	/*在这里添加对电压降的判断*/
-	LED_ON;             //示波器测试函数时间
+//	LED1_ON;             //示波器测试函数时间
 	dU_Current_0 = ADC_test_return();
-	LED_OFF;
-	while(1)
+//	LED1_OFF;
+	while(flag1==0)
 	{
 //		(dU_Current_0 - dU_Current_1)
 		Delay_us(10);
 		dU_Current_1 = ADC_test_return();
-		if((dU_Current_0 - dU_Current_1)>8)
+		if((dU_Current_0 - dU_Current_1)>40)
 		{
 			flag1=1;
 			break;
@@ -640,6 +638,7 @@ void BAT1_ADC_U_Two(int U_dis)
 	
 	/*延时100us后，电池放电电压稳定*/
 	Delay_us(100-2);
+
 	
 	/*此时开启电容2采样开关，采集放电时电压*/
 	BAT1_SW2_ON;
