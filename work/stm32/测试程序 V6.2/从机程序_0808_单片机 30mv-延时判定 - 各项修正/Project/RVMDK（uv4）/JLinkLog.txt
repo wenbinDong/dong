@@ -1,0 +1,46 @@
+
+T2404 000:161 SEGGER J-Link V4.58a Log File (0014ms, 0015ms total)
+T2404 000:161 DLL Compiled: Dec  5 2012 18:38:08 (0014ms, 0015ms total)
+T2404 000:161 Logging started @ 2018-08-16 14:28 (0015ms, 0016ms total)
+T2404 000:176 JLINK_SetWarnOutHandler(...) (0000ms, 0016ms total)
+T2404 000:176 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0018ms, 0034ms total)
+T2404 000:194 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0034ms total)
+T2404 000:194 JLINK_TIF_GetAvailable(...) (0001ms, 0035ms total)
+T2404 000:195 JLINK_SetErrorOutHandler(...) (0000ms, 0035ms total)
+T2404 000:195 JLINK_ExecCommand("ProjectFile = "F:\GitHub\dong\work\stm32\测试程序 V6.2\从机程序_0808_单片机 30mv-延时判定 - 各项修正\Project\RVMDK（uv4）\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0037ms total)
+T2404 000:198 JLINK_ExecCommand("Device = STM32F103ZE", ...)
+                JLINK_ExecCommand("map ram 0x20000000 - 0x2000FFFF", ...)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0001ms total)
+              Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).  returns 0x00 (0002ms, 0039ms total)
+T2404 000:200 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0039ms total)
+T2404 000:200 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0039ms total)
+T2404 000:200 JLINK_GetDLLVersion()  returns 45801 (0000ms, 0039ms total)
+T2404 000:200 JLINK_GetFirmwareString(...) (0001ms, 0040ms total)
+T2404 000:201 JLINK_GetDLLVersion()  returns 45801 (0000ms, 0040ms total)
+T2404 000:201 JLINK_GetCompileDateTime() (0000ms, 0040ms total)
+T2404 000:201 JLINK_GetFirmwareString(...) (0000ms, 0040ms total)
+T2404 000:201 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0040ms total)
+T2404 000:201 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0042ms total)
+T2404 000:204 JLINK_SetSpeed(5000) (0000ms, 0043ms total)
+T2404 000:205 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0043ms total)
+T2404 000:205 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>TPIU fitted.ETM fitted. >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>FPUnit: 6 code (BP) slots and 2 literal slots >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) (0076ms, 0119ms total)
+T2404 000:281 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0001ms, 0120ms total)
+T2404 000:288 JLINK_GetFirmwareString(...) (0000ms, 0120ms total)
+T2404 007:817 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0001ms, 0121ms total)
+T2404 007:818 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0001ms, 0122ms total)
+T2404 007:819 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0000ms, 0122ms total)
+T2404 007:819 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0001ms, 0123ms total)
+T2404 007:820 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0001ms, 0124ms total)
+T2404 007:821 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0001ms, 0125ms total)
+T2404 039:307 JLINK_Close()
+  ***** Error: Could not start CPU core. (ErrorCode: -1) >0x42 TIF> >0x0D TIF>
+  ***** Error: SWD-DP error: Power-down: Could not write Ctrl/Stat register. (0021ms, 0146ms total)
+T2404 039:328 JLINK_Close() (0000ms, 0146ms total)
+T2404 039:329 JLINK_Close() (0000ms, 0146ms total)

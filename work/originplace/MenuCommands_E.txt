@@ -3,5 +3,6 @@
 [WksPlotMenuMRUList]
 Version = 2
 1 = {"33249","","Line"}
-2 = {"35581","","Color Fill"}
-3 = {"33250","","Line + Symbol"}
+2 = {"2097173","","Spline"}
+3 = {"35581","","Color Fill"}
+4 = {"33250","","Line + Symbol"}
